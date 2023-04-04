@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
+ 
+    <style>
+        div.gallery {
+          margin: 5px;
+          border: 1px solid #ccc;
+          float: left;
+          width: 180px;
+        }
+        
+        div.gallery:hover {
+          border: 1px solid #777;
+        }
+        
+        div.gallery img {
+          width: 100%;
+          height: auto;
+        }
+        
+        div.desc {
+          padding: 15px;
+          text-align: center;
+        }
+        </style>
+</head>
+<body>
+    <div class="gallery">
+        <a target="_blank" href="gwagon.jpg">
+          <img src="gwagon.jpg" alt="Cinque Terre" width="600" height="400">
+        </a>
+        <div class="desc">Gwagon g63 amg</div>
+      </div>
+      <div class="gallery">
+        <a target="_blank" href="H2-Black-5.jpg">
+          <img src="H2-Black-5.jpg" alt="Forest" width="600" height="400">
+        </a>
+        <div class="desc">Hummer h2</div>
+      </div>
+      
+      <div class="gallery">
+        <a target="_blank" href="lexuslx500d.jpg">
+          <img src="lexuslx500d.jpg" alt="Northern Lights" width="600" height="400">
+        </a>
+        <div class="desc">Lexus lx500d</div>
+      </div>
+      
+      <div class="gallery">
+        <a target="_blank" href="maybach.jpg">
+          <img src="maybach.jpg" alt="Mountains" width="600" height="400">
+        </a>
+        <div class="desc">Mercedes maybach gls 650d</div>
+      </div>
+
+      <div id="root"></div>
+      <script src="index.js"></script>
+</body>
+</html>
