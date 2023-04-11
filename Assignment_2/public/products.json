@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "name": "Nike SB dunk Low",
+    "description": "Unisexual",
+    "image": "n10.jpeg",
+    "price": 7500
+  },
+  {
+    "id": 2,
+    "name": "Air Jordan !",
+    "description": "Special Naruto Edition",
+    "image": "n2.jpeg",
+    "price": 50000
+  },
+  {
+    "id": 3,
+    "name": "Airforce",
+    "description": "Women's Velvet Fabric",
+    "image": "n9.jpeg",
+    "price": 8000
+  },
+  {
+    "id": 4,
+    "name": "Dunk bb",
+    "description": "Lebron james Edition",
+    "image": "n3.jpeg",
+    "price":45555
+  },
+  {
+    "id": 5,
+    "name": "Basket ball Dunk",
+    "description": "Kobe Bryant edition",
+    "image": "n4.jpeg",
+    "price":9999
+  },
+  {
+    "id": 6,
+    "name": "Sb Low Colourfull",
+    "description": "Pride edition",
+    "image": "n5.jpeg",
+    "price": 50000
+  },
+  {
+    "id": 7,
+    "name": "Nike Airforce",
+    "description": "Schinchan Edition",
+    "image": "n6.jpeg",
+    "price": 8000
+  },
+  {
+    "id": 8,
+    "name": "Nike millitary",
+    "description": "For Men",
+    "image": "n7.jpeg",
+    "price":4555
+  }
+  ]
