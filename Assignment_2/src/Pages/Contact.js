@@ -37,7 +37,7 @@ function Contact() {
             return;
         }
 
-        axios.post('http://localhost/React_JS/Assignment_2/php/form.php', formData)
+        axios.post('http://localhost/React_Assignments/Assignment_2/php/form.php', formData)
             .then((response) => {
                 if (response.status === 200) {
                     setFormStatus('Submitted');
@@ -50,7 +50,7 @@ function Contact() {
                 setFormStatus('Error');
             });
 
-        axios.post('http://localhost/React_JS/Assignment_2/php/sendEmail.php', formData)
+        axios.post('http://localhost/React_Assignments/Assignment_2/php/sendEmail.php', formData)
             .then((response) => {
                 console.log(response);
             })
