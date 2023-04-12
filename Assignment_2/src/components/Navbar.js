@@ -28,7 +28,7 @@ function Navbar() {
 
                         <Link className="dropdown-item" to="/Products">Products</Link>
                             <Link className="dropdown-item" to="/Cart">Cart</Link>
-                            <Link className="dropdown-item" to="/Checkout">Checkout</Link>
+                            {/*<Link className="dropdown-item" to="/Checkout">Checkout</Link>*/}
 
                         </div>
                     </li>

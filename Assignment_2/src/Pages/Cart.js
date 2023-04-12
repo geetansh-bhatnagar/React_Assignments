@@ -100,8 +100,20 @@ function CartPage() {
 
                             <td>Rs{subTotal(item)}</td>
                             <td>
-
-                                <button onClick={() => handleRemoveItem(index)}>X</button>
+                                <button onClick={() => handleRemoveItem(index)}
+                                    style={{
+                                        backgroundColor: '#f44336',
+                                        color: 'white',
+                                        border: 'none',
+                                        borderRadius: '4px',
+                                        fontSize: '16px',
+                                        cursor: 'pointer',
+                                        boxShadow: '0px 2px 4px rgba(0, 0, 0, 0.25)',
+                                        transition: 'background-color 0.3s ease-in-out'
+                                    }}
+                                >
+                                   X
+                                </button>
                             </td>
                         </tr>
                     ))}
@@ -122,7 +134,7 @@ function CartPage() {
 
             {
                 cart.length > 0 ? (
-                    <Link to="/Checkout" className="btn">shop now</Link>
+                    <Link to="/Checkout" className="btn">Buy All</Link>
                 ):<>
                     {/* nothing will be rendered here */}
                 </>

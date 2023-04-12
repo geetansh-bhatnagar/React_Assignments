@@ -16,7 +16,7 @@
 .cart-page th,
 .cart-page td {
     padding: 8px;
-
+    text-align: center;
 }
 
 .cart-page th {

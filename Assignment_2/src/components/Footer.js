@@ -14,18 +14,23 @@ function Footer(){
                             <h6>+01 2345 6789 12<span>|</span>+01 2345 6789 12</h6>
                             <div className="contact-social">
                                 <div className="template-demo">
-                                    <button type="button" className="btn btn-social-icon btn-facebook btn-rounded"><i
-                                        className="fa fa-facebook"></i>   </button>
-                                    <button type="button" className="btn btn-social-icon btn-youtube btn-rounded"><i
-                                        className="fa fa-youtube"></i> <a href="#"/> </button>
-                                    <button type="button" className="btn btn-social-icon btn-twitter btn-rounded"><i
-                                        className="fa fa-twitter"></i></button>
-                                    <button type="button" className="btn btn-social-icon btn-dribbble btn-rounded"><i
-                                        className="fa fa-dribbble"></i></button>
-                                    <button type="button" className="btn btn-social-icon btn-linkedin btn-rounded"><i
-                                        className="fa fa-linkedin"></i></button>
-                                    <button type="button" className="btn btn-social-icon btn-instagram btn-rounded"><i
-                                        className="fa fa-instagram"></i></button>
+                                    <a href="https://twitter.com/nike" target="_blank">
+                                        <button className="btn btn-info" type="button">
+                                            <span><i className="fa-brands fa-twitter text-white"></i></span><span className="text-white">Twitter</span>
+                                        </button>
+                                    </a>
+                                    <a href="https://www.facebook.com/nike" target="_blank">
+                                        <button className="btn btn-primary" type="button">
+                                            <span><i className="fa-brands fa-facebook text-white"></i></span><span className="text-white">Facebook</span>
+                                        </button>
+                                    </a>
+                                    <a href="https://www.instagram.com/nike/" target="_blank">
+                                        <button className="btn btn-danger" type="button">
+                                            <span><i className="fa-brands fa-instagram text-white"></i></span><span className="text-white">Instagram</span>
+                                        </button>
+                                    </a>
+
+
                                 </div>
 
                             </div>
