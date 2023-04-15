@@ -76,7 +76,7 @@ export default function Signup() {
             console.info('Valid Form')
         } else {
             console.error('Invalid Form')
-            alert("Fill Entries Properly")
+            alert("Fill Entries within constraints")
         }
         createUserWithEmailAndPassword(auth , email, password)
             .then((userCredential) => {

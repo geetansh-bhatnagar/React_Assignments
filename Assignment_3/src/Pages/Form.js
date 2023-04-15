@@ -11,13 +11,17 @@ const Form = () => {
             [field]: e.target.value,
         });
     };
-
+    const reloadPage = () => {
+        window.location.reload();
+    };
     // Inserting a new user into the Database.
     const submitUser = (e) => {
         e.preventDefault();
         insertUser(newUser);
         e.target.reset();
+        reloadPage();
     };
+
 
     return (
         <form className="insertForm" onSubmit={submitUser}>
@@ -39,7 +43,8 @@ const Form = () => {
                 autoComplete="off"
                 required
             />
-            <input type="submit" value="Insert" />
+            <input type="submit" value="Insert"/>
+
         </form>
     );
 };

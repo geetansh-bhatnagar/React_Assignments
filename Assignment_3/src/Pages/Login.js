@@ -79,7 +79,7 @@ export default function Signup() {
 
         } else {
             console.error('Invalid Form')
-            alert("Fill Entries Properly")
+
         }
         signInWithEmailAndPassword(auth , email, password)
             .then((userCredential) => {

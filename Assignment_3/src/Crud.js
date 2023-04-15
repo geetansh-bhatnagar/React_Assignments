@@ -6,7 +6,7 @@ function Crud() {
     const data = Actions();
     return (
         <Provider value={data}>
-            <div className="App1">
+            <div className="App2">
                 <h1>React JS + PHP CRUD Application</h1>
                 <div className="wrapper">
                     <section className="left-side">
